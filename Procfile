@@ -1,0 +1,1 @@
+worker: java $JAVA_OPTS -jar tlou-ml-jar-with-dependencies.jar
