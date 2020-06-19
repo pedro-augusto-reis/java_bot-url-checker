@@ -20,7 +20,7 @@ mvn clean package
 
 ## Rodar programa JAVA default
 ```
-java -jar target/tlou2-jar-with-dependencies.jar
+java -jar target/bot-url-checker-jar-with-dependencies.jar
 ```
 
 ## Rodar programa Heroku
