@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key for="node" id="d0" yfiles.type="nodegraphics"/> 
+  <key for="edge" id="d1" yfiles.type="edgegraphics"/> 
+<graph id="dependencies" edgedefault="directed">
+<node id="969115094"><data key="d0"><y:ShapeNode><y:NodeLabel>org.example:bot-url-checker:jar:1.0-SNAPSHOT</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1138845999"><data key="d0"><y:ShapeNode><y:NodeLabel>com.konghq:unirest-java:jar:3.7.02:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="1048332309"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.httpcomponents:httpclient:jar:4.5.11:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="668929853"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.httpcomponents:httpcore:jar:4.4.13:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1048332309" target="668929853"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="204844842"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-logging:commons-logging:jar:1.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1048332309" target="204844842"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1146423186"><data key="d0"><y:ShapeNode><y:NodeLabel>commons-codec:commons-codec:jar:1.11:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1048332309" target="1146423186"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="1138845999" target="1048332309"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="406180845"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.httpcomponents:httpmime:jar:4.5.11:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1138845999" target="406180845"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1196200241"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.httpcomponents:httpcore-nio:jar:4.4.13:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1138845999" target="1196200241"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1713453581"><data key="d0"><y:ShapeNode><y:NodeLabel>org.apache.httpcomponents:httpasyncclient:jar:4.1.4:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1138845999" target="1713453581"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="178575564"><data key="d0"><y:ShapeNode><y:NodeLabel>com.google.code.gson:gson:jar:2.8.6:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1138845999" target="178575564"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="969115094" target="1138845999"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<node id="1018742990"><data key="d0"><y:ShapeNode><y:NodeLabel>com.sun.mail:javax.mail:jar:1.6.2:compile</y:NodeLabel></y:ShapeNode></data></node>
+<node id="534643569"><data key="d0"><y:ShapeNode><y:NodeLabel>javax.activation:activation:jar:1.1:compile</y:NodeLabel></y:ShapeNode></data></node>
+<edge source="1018742990" target="534643569"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+<edge source="969115094" target="1018742990"><data key="d1"><y:PolyLineEdge><y:EdgeLabel>compile</y:EdgeLabel></y:PolyLineEdge></data></edge>
+</graph></graphml>
